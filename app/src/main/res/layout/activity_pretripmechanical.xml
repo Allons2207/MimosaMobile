@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.pretripmechanical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Coolant level"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/colmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Engine oil level"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/engoilmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Brake fluid"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/brflumec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Power steering fluid"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/pwrstrmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Brakes"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/brakmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Gears"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/gearsmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Steering operation"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/stomec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Reflectors and signage (front,rear and on the sides)"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/rasmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="First aid kit"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/fakmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Fire extinguisher"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/fexmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Breakdown triangles"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/brtmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Rear view mirrors and windscreens"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/rvmwmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Licenses including certificate of fitness"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/licmec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/dummy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Overral Status"
+            android:textStyle="bold"
+            android:textColor="@color/darkGreen"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/ovemec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/stat"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorBlack"
+            app:hintTextColor="@color/colorBlack"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/placemec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mileage"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorBlack"
+            app:hintTextColor="@color/colorBlack"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/commentmec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:hint="Comment"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:scrollbars="vertical" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/start_datememec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorWhite"
+            android:text="Start Date"
+            android:textAllCaps="false"
+            android:textColor="@color/darkGreen"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/end_datemec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/colorWhite"
+            android:text="End Date"
+            android:textAllCaps="false"
+            android:textColor="@color/darkGreen"
+            android:textSize="20dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorBlack"
+            app:hintTextColor="@color/colorBlack"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/timemec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:hint="TotalHour"
+                android:scrollbars="vertical" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/save_mec"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custom_button_green_version_two"
+            android:padding="6dp"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</ScrollView>

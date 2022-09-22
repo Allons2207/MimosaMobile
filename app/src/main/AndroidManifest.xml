@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vaultits.ifad">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ifad_logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/ifad_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.buschedule"
+            android:exported="false"
+            android:label="@string/menu_bus"/>
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/menu" />
+
+        <activity
+            android:name=".activities.pendinginsp"
+            android:exported="false"
+            android:label="@string/pretrip" />
+        <activity
+            android:name=".activities.pretriptyre"
+            android:exported="false"
+            android:label="@string/pretripty" />
+        <activity
+            android:name=".activities.pretripelect"
+            android:exported="false"
+            android:label="@string/pretripmec" />
+        <activity
+            android:name=".activities.pretripmechanical"
+            android:exported="false"
+            android:label="@string/pretripmec" />
+        <activity
+            android:name=".activities.securitycheckpoint"
+            android:exported="false"
+            android:label="@string/security" />
+        <activity
+            android:name=".activities.tripupdate"
+            android:exported="false"
+            android:label="@string/updatetrip" />
+        <activity
+            android:name=".activities.mytrip"
+            android:exported="false"
+            android:label="Manage Trips" />
+        <activity
+            android:name=".activities.Preuse"
+            android:exported="false"
+            android:label="Pre-Use Inspections" />
+        <activity
+            android:name=".SyncActivityFilesActivity"
+            android:label="Sync Activity Files" />
+        <activity android:name=".activities.ActivityFileActivity" />
+        <activity
+            android:name=".CapturedDataSyncActivity"
+            android:label="Data Sync" />
+        <activity
+            android:name=".activities.ViewParticipantsActivity"
+            android:label="@string/view_participants" />
+        <activity
+            android:name=".activities.ViewActivitiesActivity"
+            android:label="@string/view_appointments" />
+        <activity
+            android:name=".activities.AddParticipantActivity"
+            android:label="@string/add_activity_participant" />
+        <activity
+            android:name=".activities.EditParticipantActivity"
+            android:label="@string/edit_participants" />
+        <activity
+            android:name=".activities.EditActivityActivity"
+            android:label="@string/edit_appointments" />
+        <activity
+            android:name=".activities.AddParticipantFromViewingActivity"
+            android:label="@string/add_activity_participant" />
+        <activity
+            android:name=".activities.AddActivityActivity"
+            android:label="@string/add_activity_title" />
+        <activity android:name=".LookUpDataSyncActivity" />
+        <activity
+            android:name=".navigation.MainNavigationDrawerActivity"
+            android:label="@string/title_activity_main_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Allons/Downloads/Compressed/IFAD/IFAD/app/src/main/res/layout/activity_add_activity.xml" value="0.1" />
+        <entry key="..\:/Users/Allons/Downloads/Compressed/IFAD/IFAD/app/src/main/res/layout/activity_captured_data_sync.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/Allons/Downloads/Compressed/IFAD/IFAD/app/src/main/res/layout/activity_edit_activity.xml" value="0.1" />
+        <entry key="..\:/Users/Allons/Downloads/Compressed/IFAD/IFAD/app/src/main/res/layout/activity_look_up_data_sync.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/drawable/custom_button_green.xml" value="0.234" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/drawable/custom_button_red.xml" value="0.234" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/drawable/ic_attach_participants.xml" value="0.234" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/drawable/ic_attachment.xml" value="0.234" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/drawable/ic_baseline_preview_24.xml" value="0.234" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/drawable/ic_home.xml" value="0.234" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/drawable/side_nav_bar.xml" value="0.234" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_add_activity.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_add_participant.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_buschedule.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_captured_data_sync.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_drawer_main.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_drawer_pretrip.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_edit_activity.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_file.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_inpect_adpater.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_look_up_data_sync.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_mytrip.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_pendinginsp.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_pretripelect.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_pretripmechanical.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_pretriptyre.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_securitycheckpoint.xml" value="0.25" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_sync_files.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_tripupdate.xml" value="0.33095450490633366" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_view_activities.xml" value="0.3880753138075314" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/activity_view_participants.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/app_bar_main.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/appointment_row_item.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/content_main.xml" value="0.3078125" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/custom_progress_dialog.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/file_row_item.xml" value="0.3078125" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/fragment_home.xml" value="0.3078125" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/participant_row_item.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/pre_use.xml" value="0.18" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/pre_use2.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/layout/trip_row_item.xml" value="0.33" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/menu/activit_inspection.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/menu/activity_main_drawer.xml" value="0.22760416666666666" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/menu/activity_options.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/menu/activity_optionspre.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/menu/main_navigation_drawer.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.234" />
+        <entry key="..\:/Users/Developer/Downloads/IFAD/IFAD/IFAD/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.234" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

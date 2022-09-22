@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_add_trips"
+            android:icon="@drawable/ic_baseline_preview_24"
+            android:title="@string/manage_trips" />
+        <item
+            android:id="@+id/nav_add_bus"
+            android:icon="@drawable/ic_baseline_preview_24"
+            android:title="@string/menu_bus" />
+        <item
+            android:id="@+id/nav_add_participants"
+
+            android:icon="@drawable/ic_baseline_preview_24"
+            android:title="@string/security" />
+
+        <item
+            android:id="@+id/nav_view_activities"
+            android:icon="@drawable/ic_baseline_preview_24"
+            android:title="@string/pretrip" />
+        <item
+            android:id="@+id/nav_view_participants"
+            android:icon="@drawable/ic_baseline_preview_24"
+            android:visible="false"
+            android:title="@string/menu_view_participants" />
+        <item
+            android:id="@+id/nav_edit_delete_participants"
+            android:icon="@drawable/ic_baseline_edit_24"
+            android:visible="false"
+            android:title="@string/menu_edit_participants" />
+    </group>
+</menu>

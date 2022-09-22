@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.pretripelect">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Headlights"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/hlielec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Indicators"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/indelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Park lights"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/plighelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Stop lights"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/slightelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Head lights"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/hlightele"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Reverse lights"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/rvlighelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Internal lights"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/intlightelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Stop Request bells"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/sbellelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Hooter"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/hooterelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Gauges (oil, temperature and pressure)"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/gaugelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Battery (security , sulphation)"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/batrryelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/dummy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Status"
+                android:textStyle="bold"
+                android:textColor="@color/darkGreen"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/ovelec"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/stat"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorBlack"
+                app:hintTextColor="@color/colorBlack"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/placeelec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mileage"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorBlack"
+                app:hintTextColor="@color/colorBlack"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/commentelec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|left"
+                    android:hint="Comment"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:scrollbars="vertical" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/start_dateelec"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/colorWhite"
+                android:text="Start Date"
+                android:textAllCaps="false"
+                android:textColor="@color/darkGreen"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/end_dateelec"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/colorWhite"
+                android:text="End Date"
+                android:textAllCaps="false"
+                android:textColor="@color/darkGreen"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/save_elec"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button_green_version_two"
+                android:padding="6dp"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

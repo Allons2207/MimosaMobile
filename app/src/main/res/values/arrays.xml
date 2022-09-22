@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dummy">
+        <item>---Select Option---</item>
+        <item>Okay</item>
+        <item>Faulty</item>
+        <item>Full</item>
+        <item>Empty</item>
+        <item>Above Half</item>
+        <item>Below Half</item>
+        <item>N/A</item>
+    </array>
+    <array name="veh">
+        <item>---Select Option---</item>
+        <item>AAX 7780</item>
+        <item>ADL 6235</item>
+        <item>ACR 9913</item>
+        <item>ABH 7410 </item>
+        <item>ACU 0253</item>
+        <item>ABN 2275</item>
+        <item>ABT 8366 </item>
+        <item>ABS 8056</item>
+        <item>ADZ 5291</item>
+        <item>ABG 9672</item>
+        <item>ABE 6565</item>
+
+    </array>
+    <array name="stat">
+        <item>---Select Option---</item>
+        <item>Fit For Trip</item>
+        <item>Not Fit for Trip</item>
+        <item>Fit for Trip with Faults</item>
+    </array>
+    <array name="che">
+        <item>---Select Option---</item>
+        <item>Departure</item>
+        <item>Return</item>
+
+    </array>
+
+
+    <array name="bus">
+        <item>---Select Option---</item>
+        <item>Departure</item>
+        <item>Return</item>
+        <item>Breakdown</item>
+
+
+    </array>
+
+    <array name="files_mime_types">
+        <item>Document(pdf)</item>
+        <item>Document(word)</item>
+        <item>Document(excel)</item>
+        <item>Audio</item>
+        <item>Image</item>
+    </array>
+</resources>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">FleetAd</string>
+    <string name="title_activity_main_navigation_drawer">FleetAd</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_lookup_data_sync">LookUp Data Sync</string>
+    <string name="action_captured_data_sync">Captured Data Sync</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_bus">Bus Schedule</string>
+    <string name="menu_add_activity">Add Activity</string>
+    <string name="menu_add_participants">Add Participants</string>
+    <string name="menu_view_participants">View Participants</string>
+    <string name="menu_view_activities">View Activities</string>
+    <string name="menu_edit_participants">Edit Participants</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Look Up Data Sync -->
+    <string name="sync_projects_lookup">Sync Projects</string>
+    <string name="sync_organisations_lookup">Sync Organisations</string>
+    <string name="sync_components_lookup">Sync Components</string>
+    <string name="sync_sub_component_lookup">Sync Sub Components</string>
+    <string name="sync_activities_lookup">Sync Activities</string>
+    <string name="sync_activity_status_lookup">Sync Activity Status</string>
+    <string name="sync_districts_lookup">Sync Districts</string>
+    <string name="sync_facilitators_lookup">Sync Facilitators</string>
+    <string name="sync_provinces_lookup">Sync Provinces</string>
+    <string name="sync_project_districts_lookup">Sync Project Districts</string>
+    <string name="sync_schemes_lookup">Sync Irrigation Schemes</string>
+    <string name="sync_budget_list_lookup">Sync Budget Activities List</string>
+    <string name="sync_sub_comp_activities_lookup">Sync Sub Comp Activities</string>
+
+    <!-- Captured Data Sync -->
+    <string name="sync_activities">Sync Activities Data</string>
+    <string name="sync_participants">Sync Activity Participants Data</string>
+
+    <!-- Page Title -->
+    <string name="add_activity_title">Add Activity</string>
+    <string name="add_activity_participant">Add Participant</string>
+    <string name="view_appointments">View Activities</string>
+    <string name="pre_use2">Pre-use Inspection</string>
+    <string name="manage_trips">Manage Trips</string>
+    <string name="security">Security Checkpoint</string>
+    <string name="pretrip">Pending PreTrip Inspection</string>
+    <string name="pretripmec">Mechanical PreTrip Inspection</string>
+    <string name="pretripel">Electrical PreTrip Inspection</string>
+    <string name="pretripty">Tyers PreTrip Inspection</string>
+    <string name="view_participants">View Participants</string>
+    <string name="edit_participants">Edit Participants</string>
+    <string name="edit_appointments">Edit Activities</string>
+    <string name="updatetrip">Trip Update</string>
+    <!-- file -->
+    <string name="base_dir">/IFAD</string>
+    <string name="temp">/Temp</string>
+    <string name="files">/Files</string>
+</resources>
